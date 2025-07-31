@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#eeeeee"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KpLevelsActivity">
+
+    <TextView
+        android:id="@+id/titleTextKpop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Emoji Quizzz...!!!!"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#471e4b"
+        android:gravity="center"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="18dp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/subtitleTextKpop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Any Level - Kpop"
+        android:textSize="22sp"
+        android:textColor="#6a2c70"
+        android:layout_marginBottom="16dp"
+        android:gravity="center"
+        tools:ignore="HardcodedText" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <LinearLayout
+                android:id="@+id/kpopEasyCard"
+                android:layout_width="280dp"
+                android:layout_height="195dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/card_bg"
+                android:gravity="center"
+                android:onClick="openCategory"
+                android:orientation="vertical"
+                android:padding="12dp"
+                android:tag="kpop_easy">
+
+                <ImageView
+                    android:layout_width="240dp"
+                    android:layout_height="140dp"
+                    android:contentDescription="KPopEasy"
+                    android:src="@drawable/easy_kp"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:gravity="center"
+                    android:text="Start with an easy level"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/kpopMediumCard"
+                android:layout_width="280dp"
+                android:layout_height="195dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/card_bg"
+                android:gravity="center"
+                android:onClick="openCategory"
+                android:orientation="vertical"
+                android:padding="16dp"
+                android:tag="kpop_medium">
+
+                <ImageView
+                    android:layout_width="240dp"
+                    android:layout_height="140dp"
+                    android:contentDescription="KPopMedium"
+                    android:src="@drawable/medium_kp"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:gravity="center"
+                    android:text="Take on a moderate challenge"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/kpopDifficultCard"
+                android:layout_width="280dp"
+                android:layout_height="195dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/card_bg"
+                android:gravity="center"
+                android:onClick="openCategory"
+                android:orientation="vertical"
+                android:padding="16dp"
+                android:tag="kpop_difficult">
+
+                <ImageView
+                    android:layout_width="240dp"
+                    android:layout_height="140dp"
+                    android:contentDescription="KPopDifficult"
+                    android:src="@drawable/difficult_kp"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:gravity="center"
+                    android:text="Test your skills with a tough challenge!"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

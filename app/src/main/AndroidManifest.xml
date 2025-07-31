@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/img"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/img"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Quizzz"
+        tools:targetApi="31">
+
+        <activity
+            android:name=".KmLevelsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".KdLevelsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".KpLevelsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".KmDifficultQuiz"
+            android:exported="false" />
+        <activity
+            android:name=".KmMediumQuiz"
+            android:exported="false" />
+        <activity
+            android:name=".KmEasyQuiz"
+            android:exported="false" />
+        <activity
+            android:name=".KdDifficultQuiz"
+            android:exported="false" />
+        <activity
+            android:name=".KdMediumQuiz"
+            android:exported="false" />
+        <activity
+            android:name=".KdEasyQuiz"
+            android:exported="false" />
+        <activity
+            android:name=".KpDifficultQuiz"
+            android:exported="false" />
+        <activity
+            android:name=".KpMediumQuiz"
+            android:exported="false" />
+        <activity
+            android:name=".KpEasyQuiz"
+            android:exported="false" />
+        <activity
+            android:name=".CategoriesActivity"
+            android:exported="false" />
+        <activity android:name=".QuizActivity"
+            android:exported="false"/>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

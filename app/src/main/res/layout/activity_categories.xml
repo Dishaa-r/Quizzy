@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#eeeeee"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CategoriesActivity">
+
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Emoji Quizzz...!!!!"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#471e4b"
+        android:gravity="center"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="18dp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/subtitleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose a Category"
+        android:textSize="22sp"
+        android:textColor="#6a2c70"
+        android:layout_marginBottom="16dp"
+        android:gravity="center"
+        tools:ignore="HardcodedText" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <LinearLayout
+                android:id="@+id/kdramaCard"
+                android:layout_width="280dp"
+                android:layout_height="195dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/card_bg"
+                android:gravity="center"
+                android:onClick="openCategory"
+                android:orientation="vertical"
+                android:padding="12dp"
+                android:tag="kdrama">
+
+                <ImageView
+                    android:layout_width="240dp"
+                    android:layout_height="140dp"
+                    android:contentDescription="KDrama"
+                    android:src="@drawable/drama"
+                    tools:ignore="HardcodedText" />
+
+                <!--                <TextView-->
+                <!--                    android:layout_width="wrap_content"-->
+                <!--                    android:layout_height="wrap_content"-->
+                <!--                    android:layout_marginTop="8dp"-->
+                <!--                    android:text="KDrama"-->
+                <!--                    android:textColor="#8d3a95"-->
+                <!--                    android:textStyle="bold"-->
+                <!--                    android:textSize="20sp"-->
+                <!--                    tools:ignore="HardcodedText" />-->
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:gravity="center"
+                    android:text="Explore the best Dramas!"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/kmovieCard"
+                android:layout_width="280dp"
+                android:layout_height="195dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/card_bg"
+                android:gravity="center"
+                android:onClick="openCategory"
+                android:orientation="vertical"
+                android:padding="16dp"
+                android:tag="kmovie">
+
+                <ImageView
+                    android:layout_width="240dp"
+                    android:layout_height="140dp"
+                    android:contentDescription="KMovie"
+                    android:src="@drawable/movie"
+                    tools:ignore="HardcodedText" />
+
+                <!--                <TextView-->
+                <!--                    android:layout_width="wrap_content"-->
+                <!--                    android:layout_height="wrap_content"-->
+                <!--                    android:layout_marginTop="8dp"-->
+                <!--                    android:text="KMovie"-->
+                <!--                    android:textColor="#8d3a95"-->
+                <!--                    android:textStyle="bold"-->
+                <!--                    android:textSize="20sp"-->
+                <!--                    tools:ignore="HardcodedText" />-->
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:gravity="center"
+                    android:text="Test your knowledge of Movies"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/kpopCard"
+                android:layout_width="280dp"
+                android:layout_height="195dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/card_bg"
+                android:gravity="center"
+                android:onClick="openCategory"
+                android:orientation="vertical"
+                android:padding="16dp"
+                android:tag="kpop">
+
+                <ImageView
+                    android:layout_width="240dp"
+                    android:layout_height="140dp"
+                    android:contentDescription="KPop"
+                    android:src="@drawable/kpop"
+                    tools:ignore="HardcodedText" />
+
+                <!--                <TextView-->
+                <!--                    android:layout_width="wrap_content"-->
+                <!--                    android:layout_height="wrap_content"-->
+                <!--                    android:text="KPop"-->
+                <!--                    android:textColor="#8d3a95"-->
+                <!--                    android:textStyle="bold"-->
+                <!--                    android:textSize="20sp"-->
+                <!--                    android:layout_marginTop="8dp"-->
+                <!--                    tools:ignore="HardcodedText" />-->
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:gravity="center"
+                    android:text="How well do you know K-Pop?"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText" />
+            </LinearLayout>
+        </LinearLayout>
+        
+        
+    </ScrollView>
+
+
+</LinearLayout>
