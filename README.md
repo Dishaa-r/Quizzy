@@ -1,4 +1,4 @@
-# 🧠 Quizzz - Android Quiz Application
+# 🧠 Quizzy - Android Quiz Application
 
 <img width="1600" height="900" alt="Quizzy App" src="https://github.com/user-attachments/assets/5315f926-fe4d-4083-b99a-ad6b2202da3e" />
 
