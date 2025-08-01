@@ -1,6 +1,6 @@
 # 🧠 Quizzz - Android Quiz Application
 
-<img width="100%" alt="Quizzz Banner" src="https://github.com/Dishaa-r/Quizzz/blob/main/screenshots/banner.png?raw=true" />
+<img width="1600" height="900" alt="Quizzy App" src="https://github.com/user-attachments/assets/5315f926-fe4d-4083-b99a-ad6b2202da3e" />
 
 An interactive Android quiz app that challenges users with category-based multiple-choice questions. Built using Kotlin, this project demonstrates well-structured mobile development, use of Android SDK features, and a fun, gamified UI/UX experience.
 
