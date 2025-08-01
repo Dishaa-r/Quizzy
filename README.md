@@ -78,3 +78,21 @@ cd Quizzz
 
 # Open the project in Android Studio
 # Let it sync Gradle and run on emulator/device
+
+---
+
+👩‍💻 Developed By
+Dishaa Raghani.
+📧 disharaghani1@gmail.com
+🌐 github.com/Dishaa-r
+
+---
+
+📝 License
+© 2025 Dishaa R.
+All rights reserved.
+
+This project and all associated files are the intellectual property of the author.
+No part of this app may be copied, modified, republished, or used in any form, in whole or in part, without explicit written permission.
+
+This project is intended for educational and placement showcase purposes only.
