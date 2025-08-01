@@ -26,14 +26,14 @@ Quizzz is designed to test users’ knowledge across multiple topics. It include
 ### 1️⃣ Splash Screen  
 Launch screen showing the app logo and branding.  
 
-<img width="300" height="600" alt="SplashScreen-removebg-preview" src="https://github.com/user-attachments/assets/070ff79d-26aa-4046-b2d8-7cf9895817c2" />
+<img width="290" height="590" alt="SplashScreen-removebg-preview" src="https://github.com/user-attachments/assets/070ff79d-26aa-4046-b2d8-7cf9895817c2" />
 
 ---
 
 ### 2️⃣ Home / Categories Screen  
 Entry screen featuring options to begin the quiz by selecting from the available categories. 
 
-<img width="300" height="600" alt="HomeScreen-removebg-preview" src="https://github.com/user-attachments/assets/dd2861b0-73c8-4935-b6e8-a3babf28d356" />
+<img width="290" height="590" alt="HomeScreen-removebg-preview" src="https://github.com/user-attachments/assets/dd2861b0-73c8-4935-b6e8-a3babf28d356" />
 
 
 ---
@@ -41,7 +41,7 @@ Entry screen featuring options to begin the quiz by selecting from the available
 ### 3️⃣ Levels Screen  
 Choose from different quiz levels: Easy, Medium, or Hard  
 
-<img width="300" height="600" alt="CategoriesScreen-removebg-preview" src="https://github.com/user-attachments/assets/08ee7fea-632a-4653-9108-0804d26bf8e9" />
+<img width="290" height="590" alt="CategoriesScreen-removebg-preview" src="https://github.com/user-attachments/assets/08ee7fea-632a-4653-9108-0804d26bf8e9" />
 
 
 ---
@@ -57,7 +57,7 @@ Hints available before answering and freeze when you run out of coins.
 ### 5️  Result Popup  
 Popup displays quiz results, coins earned, and more.
 
-<img width="300" height="600" alt="ResultPopupScreen-removebg-preview" src="https://github.com/user-attachments/assets/260a831d-59b8-4c92-b6f6-f4ed5442f21f" />
+<img width="290" height="590" alt="ResultPopupScreen-removebg-preview" src="https://github.com/user-attachments/assets/260a831d-59b8-4c92-b6f6-f4ed5442f21f" />
 
 
 ---
