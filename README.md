@@ -25,7 +25,7 @@ Quizzz is designed to test users’ knowledge across multiple topics. It include
 
 ### 1️⃣ Splash Screen  
 Launch screen showing the app logo and branding.  
-<img width="375" height="666" alt="SplashScreen-removebg-preview" src="https://github.com/user-attachments/assets/070ff79d-26aa-4046-b2d8-7cf9895817c2" />
+<img width="300" height="600" alt="SplashScreen-removebg-preview" src="https://github.com/user-attachments/assets/070ff79d-26aa-4046-b2d8-7cf9895817c2" />
 
 ---
 
